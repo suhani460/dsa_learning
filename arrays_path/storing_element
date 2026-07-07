@@ -5,3 +5,29 @@ public class Main{
 
          // Q2. STORE A PERSON NAME
          String name = "suhani verma ";
+
+         // Q3. STORE 500 ROLL NO
+        int c = 1;
+        int b = 5;
+         //.....
+         // how many roll no you gonna write thats why we are using array
+
+         //syntax of arrays
+        // datatype[] variable_name = new datatype[Size];
+         //STORE 5 ROLL NO
+         int[] rros = new int[5];
+         // or directly
+        int [] rros2 = {45, 56, 78, 67, 45};
+
+        int[] ros;
+        ros = new int[5];
+         System.out.println(ros[1]);
+
+         String[] arr= new String[5];
+         System.out.println(arr[4]);
+
+
+        }
+
+
+     }
