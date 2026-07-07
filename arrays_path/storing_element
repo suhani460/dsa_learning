@@ -1,0 +1,7 @@
+public class Main{
+    public static void main(String[] args) {
+         // Q1. STORE A ROLL NO
+         int a = 9;
+
+         // Q2. STORE A PERSON NAME
+         String name = "suhani verma ";
