@@ -1,0 +1,14 @@
+public class Main {
+    public static void main(String[] args){
+        int[] arr ={34,56,78,98};
+        int num= 67;
+        String name = "suhani verma";
+        System.out.println(name);
+        // here string a count as a single string
+
+        String a ="suhani";
+        System.out.println(a);
+         a = "verma";
+        System.out.println(a);
+    }
+}
