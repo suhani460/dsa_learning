@@ -1,0 +1,14 @@
+public class Main {
+    public static void main(String[] args){
+        String a = "suhani";
+        String b = "suhani";
+        String c = a;
+
+        System.out.println(a == c);
+
+         String name1 = new String("suhani");
+         String name2 = new String( "suhani");
+        System.out.println(name1 == name2);// it care about your method
+        System.out.println(name1.equals(name2));
+        System.out.println(name1.charAt(0));// it is caring about value
+    }
