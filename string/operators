@@ -1,0 +1,21 @@
+import javax.swing.plaf.synth.SynthOptionPaneUI;
+import java.util.ArrayList;
+import java.util.Arrays;
+
+public class Main {
+    public static void main(String[] args) {
+        System.out.println('a'+'b');
+        System.out.println("a"+"b");
+        System.out.println((char)'a'+ 3);
+        System.out.println("a"+ 1);
+        // this  is same as after few steps: "a" + "1"
+//integer will be converted into integer that will call toString
+
+        System.out.println("suhani"+ new ArrayList<>());
+        System.out.println("suhani" + new Integer(67));
+        String ans = new Integer(56) + "" + new ArrayList<>();
+        System.out.println(ans);
+
+
+    }
+}
