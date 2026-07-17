@@ -1,0 +1,14 @@
+import javax.swing.plaf.synth.SynthOptionPaneUI;
+import java.util.Arrays;
+
+public class Main {
+    public static void main(String[] args) {
+        float a = 34.56f;
+//       System.out.printf("formatted number is %.2f ", a);
+//
+//       System.out.printf("pie: %.3f " , Math.PI);
+       System.out.printf("hello my name is %s and my age is %d", "kunal",78 );
+
+
+    }
+}
