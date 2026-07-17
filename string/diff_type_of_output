@@ -1,0 +1,14 @@
+mport javax.swing.plaf.synth.SynthOptionPaneUI;
+import java.util.Arrays;
+
+public class Main {
+    public static void main(String[] args) {
+        System.out.println(57);
+        Integer num = new Integer(57);
+        System.out.println(num.toString());
+        System.out.println("kunal");
+        System.out.println(Arrays.toString(new int[]{2, 4, 5, 7, 8}));
+        String name = null;
+        System.out.println(name);
+    }
+}
